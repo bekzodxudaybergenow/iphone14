@@ -1,0 +1,29 @@
+.footer {
+    background-color: var(--VAMPIRE-BLACK);
+}
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    min-height: 150px;
+
+    & a {
+        color: var(--DARK-SILVER);
+        transition: ease-in-out .2s;
+
+        &:hover {
+            color: var(--WHITE);
+        }
+    }
+}
+.footer-logo {
+    & img {
+        display: block;
+    }
+}
+.footer-tel {
+    font-size: 24px;
+    line-height: 29.05px;
+}

@@ -6,6 +6,7 @@
   --DEEP-VIOLET: #2c0255;
   --INDEPENDENCE: #574B63;
   --CULTURED: #F5F5F7;
+  --VAMPIRE-BLACK: #0A0A0A;
   --inter: "Inter", sans-serif;
 }
 
@@ -281,6 +282,36 @@
   width: 100%;
   max-height: 600px;
   display: block;
+}
+
+.footer {
+  background-color: var(--VAMPIRE-BLACK);
+}
+
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  min-height: 150px;
+}
+.footer-row a {
+  color: var(--DARK-SILVER);
+  transition: ease-in-out 0.2s;
+}
+.footer-row a:hover {
+  color: var(--WHITE);
+}
+
+.footer-logo img {
+  display: block;
+}
+
+.footer-tel {
+  font-size: 24px;
+  line-height: 29.05px;
 }
 
 *,
