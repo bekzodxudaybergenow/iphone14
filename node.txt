@@ -1,0 +1,2 @@
+Foydalanildi: html css3(scss, validator.w3, tiny.png, transfonter)
+Figma: https://www.figma.com/file/viKXUA05cEfMYMu4Ummsbd/Iphone-(Copy)?type=design&node-id=1-2&t=5u31j9OzhFElUWpY-0
